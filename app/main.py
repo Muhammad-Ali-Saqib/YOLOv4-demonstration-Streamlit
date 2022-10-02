@@ -74,9 +74,9 @@ def yolo_detection(img):
 
 def main():
     st.title("Object Detector")
-    # st.text("Please uplead the image")
+    st.text("This app demonstrates objects detected in images using YOLO-v4")
 
-    livePred_btn = st.button("Live")
+    # livePred_btn = st.button("Live")
     # if livePred_btn:
     #     liveprediction()
 
