@@ -80,7 +80,7 @@ def main():
     # if livePred_btn:
     #     liveprediction()
 
-    fromImage_btn = st.button("On Image")
+    fromImage_btn = st.button("Open Image")
     if fromImage_btn:
 
         image_file = st.file_uploader("Upload image", type=["jpg","jpeg"])
