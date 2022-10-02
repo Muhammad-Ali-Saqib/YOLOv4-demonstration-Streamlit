@@ -95,6 +95,5 @@ def main():
             if predict_btn:
                 yolo_detection(np.asarray(org_image))
             
-
 if __name__ == "__main__":
     main()
